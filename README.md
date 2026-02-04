@@ -19,8 +19,17 @@ pnpm dev
 ```
 Then open http://localhost:3000.
 
+## Build and run for production
+```bash
+pnpm build
+pnpm start
+```
+
 ## Configuration
-No environment variables or database configuration are required at this time.
+There are no required environment variables or database configuration at this time. If you add runtime configuration later, document it here.
+
+### Optional environment variables
+None.
 
 ## Tests
 No automated test suite is configured. You can run linting with:
